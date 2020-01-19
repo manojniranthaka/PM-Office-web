@@ -15,11 +15,11 @@ function Header() {
   
   return (
     <div>
-      <Navbar scrolling dark bg="light" fixed="top">
+      <Navbar scrolling dark bg="light" expand="sm" fixed="top">
       {/* <Navbar scrolling dark expand="md" fixed="top"> */}
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+        {/* <Navbar.Brand href="#home">ශ්‍රී ලංකා අග්‍රාමාත්‍ය  කාර්යාලය</Navbar.Brand> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">HOME</Nav.Link>
