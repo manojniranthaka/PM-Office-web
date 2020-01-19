@@ -10,7 +10,7 @@ import ReactBootstrap, {
 
 function Footer() {
   return (
-      <div className="page-footer font-small indigo">
+      <div className="page-footer font-small light">
         <div className="container">
           <div className="row text-center d-flex justify-content-center pt-5 mb-3">
             {/* <!-- Grid column --> */}
@@ -23,7 +23,7 @@ function Footer() {
 
             {/* <!-- Grid column --> */}
             <div className="col-md-2 mb-3">
-              <h6 className="text-uppercase font-weight-bold">
+              <h6 className="text-uppercase font-weight-bold text-white">
                 <a href="#!">NEWS</a>
               </h6>
             </div>
@@ -59,7 +59,7 @@ function Footer() {
           {/* <!-- Grid row--> */}
           <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
             {/* <!-- Grid column --> */}
-            <div className="col-md-8 col-12 mt-5">
+            <div className="col-md-8 col-12 mt-3">
               <p >Contact Us</p>
               <p >Carlton House, Tangalle, Sri Lanka.</p>
             </div>
@@ -74,8 +74,8 @@ function Footer() {
           {/* <!-- Grid row--> */}
           <div className="row pb-3">
             {/* <!-- Grid column --> */}
-            <div className="col-md-12">
-              <div className="mb-5 flex-center">
+            <div className="col-md-3">
+              <div className="mb-2 flex-center">
                 {/* <!-- switter --> */}
                 <a className="fb-ic" href="https://twitter.com/PresRajapaksa">
                   <i className="fab fa-twitter fa-lg white-text mr-4"> </i>
@@ -97,7 +97,7 @@ function Footer() {
         {/* <!-- Footer Links --> */}
 
         {/* <!-- Copyright --> */}
-        <div className="footer-copyright text-center py-3">
+        <div className="footer-copyright text-center">
           © 2020 Copyright and Designed by Prime Minister's Office Software Engineering Unit 
         </div>
         {/* <!-- Copyright --> */}

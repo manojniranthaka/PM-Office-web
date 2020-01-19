@@ -15,17 +15,17 @@ function Header() {
   
   return (
     <div>
-      <Navbar scrolling dark bg="light" expand="sm" fixed="top">
+      <Navbar scrolling bg="white" expand="sm" fixed="top">
       {/* <Navbar scrolling dark expand="md" fixed="top"> */}
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {/* <Navbar.Brand href="#home">ශ්‍රී ලංකා අග්‍රාමාත්‍ය  කාර්යාලය</Navbar.Brand> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">HOME</Nav.Link>
-            <Nav.Link href="#news">NEWS</Nav.Link>
-            <Nav.Link href="#products">PRODUCTS</Nav.Link>
-            <Nav.Link href="#media">MEDIA</Nav.Link>
+            <Nav.Link className="mr-4" href="/">HOME</Nav.Link>
+            <Nav.Link className="mr-4"  href="#news">NEWS</Nav.Link>
+            <Nav.Link className="mr-4"  href="#products">PRODUCTS</Nav.Link>
+            <Nav.Link className="mr-4"  href="#media">MEDIA</Nav.Link>
             <Nav.Link href="#charity">CHARITY</Nav.Link>
           </Nav>
           <img
@@ -33,7 +33,8 @@ function Header() {
             src="https://res.cloudinary.com/dpf1htulz/image/upload/v1579442803/pm/LOGO_vakeve.png"
           />
           <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <FormControl type="text" placeholder="Search" className="mr-sm-5"/>
+            {/* <i class="fa fa-search"></i> */}
             {/* <div className="input-group md-form form-sm form-2 pl-0">
               <input
                 className="form-control my-0 py-1 amber-border"
@@ -50,7 +51,7 @@ function Header() {
                 </span>
               </div>
             </div> */}
-            <Button variant="outline-dark" href="/shop">
+            <Button  className="mr-3"  variant="outline-dark" href="/shop">
               SHOP
             </Button>
           </Form>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./landing.css";
+// import NewsComponent from "./news.component";
 import "animate.css/animate.min.css";
 import { Slide } from "react-slideshow-image";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -82,7 +83,6 @@ function Landing() {
         </div>
       </section>
 
-      {/* new one ================================================================= */}
       <section className="ftco-section ftco-intro">
         <div className="container">
           <div className="row justify-content-end">
@@ -126,7 +126,7 @@ function Landing() {
           </div>
         </div>
       </section>
-      {/* new one ================================================================= */}
+      <div id="#news">smothing</div>
     </div>
   );
 }

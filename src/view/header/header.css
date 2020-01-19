@@ -1,8 +1,20 @@
 .national-icon {
     display: block;
     /* margin-left: auto; */
-    margin-right: 27%;
+    margin-right: 23%;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
     /* align-content: center; */
-    width: 5%;
+    width: 4%;
   }
 
+  .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+  .scrolling.scrolled{
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
