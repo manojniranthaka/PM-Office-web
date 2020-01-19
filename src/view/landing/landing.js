@@ -73,7 +73,7 @@ function Landing() {
 
               <a
                 className="ftco-animate"
-                href="#collapse"
+                href="/president-rajapaksha"
                 className="nav-toggle"
               >
                 Read More
@@ -117,7 +117,7 @@ function Landing() {
 
               <a
                 className="ftco-animate"
-                href="#collapse"
+                href="/president-rajapaksha"
                 className="nav-toggle"
               >
                 Read More
